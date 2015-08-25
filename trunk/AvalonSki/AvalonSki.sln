@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonSki", "AvalonSki\AvalonSki.csproj", "{208609C7-EBAA-4071-B7F2-47B26E00CD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonSkiAcceleratedEgo", "AvalonSkiAcceleratedEgo\AvalonSkiAcceleratedEgo.csproj", "{828B110A-6707-4E81-958A-8D2A2CB18EC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Assets|Any CPU = Assets|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{208609C7-EBAA-4071-B7F2-47B26E00CD2B}.Assets|Any CPU.ActiveCfg = Assets|Any CPU
+		{208609C7-EBAA-4071-B7F2-47B26E00CD2B}.Assets|Any CPU.Build.0 = Assets|Any CPU
+		{208609C7-EBAA-4071-B7F2-47B26E00CD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208609C7-EBAA-4071-B7F2-47B26E00CD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208609C7-EBAA-4071-B7F2-47B26E00CD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208609C7-EBAA-4071-B7F2-47B26E00CD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828B110A-6707-4E81-958A-8D2A2CB18EC2}.Assets|Any CPU.ActiveCfg = Assets|Any CPU
+		{828B110A-6707-4E81-958A-8D2A2CB18EC2}.Assets|Any CPU.Build.0 = Assets|Any CPU
+		{828B110A-6707-4E81-958A-8D2A2CB18EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828B110A-6707-4E81-958A-8D2A2CB18EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828B110A-6707-4E81-958A-8D2A2CB18EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828B110A-6707-4E81-958A-8D2A2CB18EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

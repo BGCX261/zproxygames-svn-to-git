@@ -1,0 +1,4 @@
+﻿This namespace shall be refactored to its own library.
+
+http://code.google.com/intl/et-EE/appengine/docs/java/javadoc/overview-tree.html
+http://code.google.com/intl/et-EE/appengine/docs/java/javadoc/com/google/appengine/api/memcache/package-tree.html

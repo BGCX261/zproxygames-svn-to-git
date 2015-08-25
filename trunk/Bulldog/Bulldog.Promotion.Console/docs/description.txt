@@ -1,0 +1,1 @@
+﻿Bulldog.Promotion.Console. Crosscompiled from C# to Java.

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonSkillGame", "AvalonSkillGame\AvalonSkillGame.csproj", "{14C00F0F-85AD-4560-91D5-B6D25E733D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetProvider", "AssetProvider\AssetProvider.csproj", "{8FD9E72E-4C42-4D61-850F-FA55FB45F87E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14C00F0F-85AD-4560-91D5-B6D25E733D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C00F0F-85AD-4560-91D5-B6D25E733D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C00F0F-85AD-4560-91D5-B6D25E733D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C00F0F-85AD-4560-91D5-B6D25E733D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD9E72E-4C42-4D61-850F-FA55FB45F87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD9E72E-4C42-4D61-850F-FA55FB45F87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD9E72E-4C42-4D61-850F-FA55FB45F87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD9E72E-4C42-4D61-850F-FA55FB45F87E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

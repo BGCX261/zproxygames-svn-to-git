@@ -1,0 +1,1 @@
+﻿Bulldog.Client.Promotion. Crosscompiled from C# to ActionScript.

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C08AD9DA-AC14-470B-8DF5-78A4B7998FB2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bulldog</RootNamespace>
+    <AssemblyName>Bulldog</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MovieAgentGoogleApplicationPosterDispatch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\zmovies\MovieAgent\MovieAgentGoogleApplicationPosterDispatch\bin\Release\MovieAgentGoogleApplicationPosterDispatch.exe</HintPath>
+    </Reference>
+    <Reference Include="ScriptCoreLib.Archive.ZIP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\util\jsc\lib\ScriptCoreLib.Archive.ZIP.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptCoreLib.YAML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\util\jsc\lib\ScriptCoreLib.YAML.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptCoreLibA, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>c:\util\jsc\bin\ScriptCoreLibA.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptCoreLibJava, Version=1.2006.222.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\util\jsc\bin\ScriptCoreLibJava.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptCoreLibJava.AppEngine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\util\jsc\bin\ScriptCoreLibJava.AppEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TidyDocsGoogleApplication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\zmovies\TidyDocs\TidyDocsGoogleApplication\TidyDocsGoogleApplication\bin\Release\TidyDocsGoogleApplication.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IAssemblyReferenceToken.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\NonobaServlet.cs" />
+    <Compile Include="Server\HomeServlet.cs" />
+    <Compile Include="Server\Library\Servlets\HTMLServlet.cs" />
+    <Compile Include="Server\Library\Servlets\RedirectionServlet.cs" />
+    <Compile Include="Server\Promotion\PromotionLobbyServlet.cs" />
+    <Compile Include="Server\StratusServlet.cs" />
+    <Compile Include="Server\Monetization\AdSenseServlet.cs" />
+    <Compile Include="Server\Monetization\BuyLevelEditorServlet.cs" />
+    <Compile Include="Server\Monetization\DonationServlet.cs" />
+    <Compile Include="Server\Promotion\PromotionZIPServlet.cs" />
+    <Compile Include="Server\Promotion\PromotionFeedServlet.cs" />
+    <Compile Include="Server\FaviconServlet.cs" />
+    <Compile Include="Server\Library\FlashContainerProvider.cs" />
+    <Compile Include="Server\Promotion\PromotionServlet.cs" />
+    <Compile Include="Server\FlashCrossDomainPolicyServlet.cs" />
+    <Compile Include="Server\JavaCodeGeneratorServlet.cs" />
+    <Compile Include="Server\DefaultServlet.cs" />
+    <Compile Include="Server\Library\Extensions.cs" />
+    <Compile Include="Setup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Server\API\description.txt" />
+    <EmbeddedResource Include="web\assets\Bulldog\jsc.png" />
+    <EmbeddedResource Include="web\assets\Bulldog\bg.png" />
+    <EmbeddedResource Include="web\assets\Bulldog\VerticalScrollerFlash.swf" />
+    <EmbeddedResource Include="web\assets\Bulldog\App.ico" />
+    <EmbeddedResource Include="web\assets\Bulldog\CarouselFlash.swf" />
+    <EmbeddedResource Include="web\assets\Bulldog\minni.mp3" />
+    <EmbeddedResource Include="web\assets\Bulldog\zproxygames100x64.png" />
+    <EmbeddedResource Include="web\assets\Bulldog\zproxygames200x128.png" />
+    <EmbeddedResource Include="web\assets\Bulldog\zproxygames200x128a.png" />
+    <EmbeddedResource Include="web\assets\Bulldog\VerticalScrollerLoader.swf" />
+    <EmbeddedResource Include="web\assets\Bulldog\AvalonExampleGalleryFlash.swf" />
+    <EmbeddedResource Include="web\assets\Bulldog\musi.swf" />
+    <Content Include="web\build.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="web\java\META-INF\jdoconfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="web\java\WEB-INF\appengine-web.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="web\java\WEB-INF\web.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tools\build.bat" />
+    <None Include="tools\find.java.bat" />
+    <None Include="tools\run.bat" />
+    <None Include="tools\update.bat" />
+    <None Include="web\java\log4j.properties" />
+    <None Include="web\java\logging.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bulldog.Promotion\Bulldog.Promotion.csproj">
+      <Project>{DC3963F4-4423-46E5-93B1-AB7AF500A902}</Project>
+      <Name>Bulldog.Promotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bulldog.Server.CodeGenerators\Bulldog.Server.CodeGenerators.csproj">
+      <Project>{009B64C9-DE3A-4C1C-ACCC-C9A8466A2C68}</Project>
+      <Name>Bulldog.Server.CodeGenerators</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="docs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>pushd ..\..\tools\
+call build.bat $(ProjectName) $(TargetFileName)  $(ConfigurationName)
+popd</PostBuildEvent>
+  </PropertyGroup>
+</Project>
